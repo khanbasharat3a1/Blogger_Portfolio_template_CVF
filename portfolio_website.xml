@@ -1025,6 +1025,133 @@ Default Blogger Styles
             gap: 8px;
         }
 
+      .project-heading {
+            color: #2c3e50;
+            font-size: clamp(24px, 5vw, 36px);
+            line-height: 1.2;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            padding-top: 60px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .project-container {
+            background: linear-gradient(145deg, #f6f8fa 0%, #f1f1f1 100%);
+            display: flex;
+            justify-content: center;
+            padding: clamp(20px, 5vw, 40px);
+        }
+
+        .project-wrapper {
+            width: min(90%, 1200px);
+            background-color: #ffffff;
+            padding: clamp(15px, 3vw, 30px);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-content {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .project-card {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            border: none;
+            padding: clamp(15px, 3vw, 25px);
+            background: rgb(255, 255, 255);
+            border-radius: 12px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 15px;
+            transition: transform 0.2s ease-in-out;
+            gap: 15px;
+            transform: translateY(0px);
+		border-bottom: 1px solid #ccc; /* Light gray line */
+
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .project-logo-container {
+            width: 60px;
+            height: 60px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .project-logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .project-title {
+            flex-grow: 1;
+        }
+
+        .project-company-name {
+            color: #2c3e50;
+            font-size: clamp(16px, 4vw, 20px);
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .project-role {
+            color: #e74c3c;
+            font-weight: 600;
+            font-size: clamp(14px, 3.5vw, 16px);
+            margin: 5px 0 0 0;
+        }
+
+        .project-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            color: #7f8c8d;
+            font-size: 13px;
+        }
+
+        .project-description {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .project-description-item {
+            color: #2c3e50;
+            font-size: 13px;
+            line-height: 1.8;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+        }
+
+        .project-description-bullet {
+            color: #e74c3c;
+            margin-right: 8px;
+        }
+
+        .project-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
         .skill-tag {
             background-color: #f3eae9;
             padding: 4px 8px;
@@ -1379,6 +1506,30 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
         <div class='experience-container'>
             <div class='experience-wrapper'>
                 <div class='experience-content'>
+                    <!-- Atomic North -->
+                    <div class='experience-card'>
+                        <div class='experience-card-header'>
+                            <div class='experience-logo-container'>
+                                <img alt='Atomic North Logo' class='experience-logo' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDGr_M2amp4t4UQLH24W5wJtT5AbRz2h2FpCHb8S5jO8L7vjYJSH0dDOi_acvB2Qp6cuj4l1i9zFjY2s-jJ8n8cZ-g2m3d5e4a3b2c1/s320/atomic_north_logo.png'/>
+                            </div>
+                            <div class='experience-title'>
+                                <h3 class='experience-company-name'>Atomic North</h3>
+                                <p class='experience-role'>Technical Support Trainee</p>
+                            </div>
+                        </div>
+                        <div class='experience-details'>
+                            <span>📅 Jul 2025 - Present</span>
+                            <span>📍 On-site</span>
+                        </div>
+                        <ul class='experience-description'>
+                            <li class='experience-description-item'>
+                                <span class='experience-description-bullet'>&#9657;</span>Supporting NOC &amp; SOC operations including monitoring, incident response, and server management.
+                            </li>
+                            <li class='experience-description-item'>
+                                <span class='experience-description-bullet'>&#9657;</span>Ensuring network reliability, system uptime, and security compliance through proactive analysis and real-time troubleshooting.
+                            </li>
+                        </ul>
+                    </div>
                     <!-- Cadila Pharmaceuticals -->
                     <div class='experience-card'>
                         <div class='experience-card-header'>
@@ -1533,10 +1684,88 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
 
                             <!-- Projects Section -->
                             <section class='section-container' id='projects'>
+                                <div class='project'>
                                 <div class='section-content'>
                                     <h2 class='section-title'>Projects</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                                    </div>
+                                    <div class='project-container'>
+                                        <div class='project-wrapper'>
+                                            <div class='project-content'>
+                                                <!-- Project 1 -->
+                                                <div class='project-card'>
+                                                    <div class='project-card-header'>
+                                                        <div class='project-logo-container'>
+                                                            <img alt='Model Institute of Engineering and Technology logo' class='project-logo' src='https://mietjmu.in/images/MIET.png'/>
+                                                        </div>
+                                                        <div class='project-title'>
+                                                            <h3 class='project-company-name'>AI-Powered Overheat Detection and Prevention System</h3>
+                                                            <p class='project-role'>Associated with Model Institute of Engineering and Technology</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class='project-details'>
+                                                        <span>📅 Jan 2025 - Jun 2025</span>
+                                                    </div>
+                                                    <ul class='project-description'>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Designed and implemented an AI-powered industrial automation system for real-time motor overheat detection and prevention.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated Mitsubishi iQ-R PLC for actuator control (fans, alarms, LEDs) and ESP32 with IoT sensors (PT100, DHT22, ACS712, LM393, voltage transducer) for data acquisition.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Python-based AI model to predict overheating risks and recommend preventive actions.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Built a Flask web dashboard to visualize live sensor data, historical logs, and AI-driven insights for predictive maintenance.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Programmed ladder logic for PLC-based fail-safe control loops, ensuring reliable system automation.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Established communication between ESP32 and Python server for efficient data transfer and control signals.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Conducted extensive testing and validation to ensure accuracy, responsiveness, and safety under industrial conditions.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Designed the system to be scalable and modular, adaptable for multiple motors and broader Industry 4.0 applications.</li>
+                                                    </ul>
+                                                    <div class='project-skills'>
+                                                        <span class='skill-tag'>Industrial Automation</span><span class='skill-tag'>Industry 4.0</span><span class='skill-tag'>Programmable Logic Controller (PLC)</span><span class='skill-tag'>Internet of Things (IoT)</span><span class='skill-tag'>PLC Programming</span><span class='skill-tag'>Python (Programming Language)</span><span class='skill-tag'>Artificial Intelligence (AI)</span><span class='skill-tag'>Predictive Maintenance</span><span class='skill-tag'>ESP32 Microcontrollers</span><span class='skill-tag'>Flask</span><span class='skill-tag'>Machine Learning</span><span class='skill-tag'>Ladder Logic</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Project 2 -->
+                                                <div class='project-card'>
+                                                    <div class='project-card-header'>
+                                                        <div class='project-title'>
+                                                            <h3 class='project-company-name'>Smart Healthcare Assistant</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class='project-details'>
+                                                        <span>📅 Nov 2024 - Dec 2024</span>
+                                                    </div>
+                                                    <ul class='project-description'>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Flask-based healthcare chatbot platform providing real-time healthcare advice and location-based assistance.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated OpenAI's ChatGPT API for natural language processing and Google Maps API for fetching and displaying nearby healthcare facilities.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Designed a responsive and user-friendly frontend using Bootstrap and custom CSS, ensuring compatibility across devices.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Implemented secure backend routing for handling user queries and external API integration with optimized performance using Gunicorn.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Conducted rigorous testing to validate functionality, responsiveness, and error handling, ensuring a seamless user experience.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Deployed the application on Render.com, enabling scalable and reliable access for users.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Continuously refined the platform based on user feedback to enhance usability and expand features like emergency support and personalized recommendations.</li>
+                                                    </ul>
+                                                    <div class='project-skills'>
+                                                        <span class='skill-tag'>Python (Programming Language)</span><span class='skill-tag'>Bootstrap (Framework)</span><span class='skill-tag'>HTML5</span><span class='skill-tag'>Cascading Style Sheets (CSS)</span><span class='skill-tag'>API</span><span class='skill-tag'>OpenAI API</span><span class='skill-tag'>Front-End Development</span><span class='skill-tag'>Back-End Web Development</span><span class='skill-tag'>User Experience (UX)</span><span class='skill-tag'>User Interface Design</span>
+                                                    </div>
+                                                    <a href='https://github.com/khanbasharat3a1/AI_SmarHealthCare_Assistant' target='_blank'>GitHub Repository</a>
+                                                </div>
+                                                <!-- Project 3 -->
+                                                <div class='project-card'>
+                                                    <div class='project-card-header'>
+                                                        <div class='project-title'>
+                                                            <h3 class='project-company-name'>Blog Website using Flask</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class='project-details'>
+                                                        <span>📅 Nov 2023 - Dec 2023</span>
+                                                    </div>
+                                                    <ul class='project-description'>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Flask-based blogging platform with user registration, login, and post management functionalities.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated SQLAlchemy for database interaction and Flask-Login for secure password hashing and authentication.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Utilized Flask-Bootstrap5 and CKEditor for frontend styling and rich text editing.</li>
+                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Implemented routes for user authentication, post management, and error handling.</li>
+                                                    </ul>
+                                                    <div class='project-skills'>
+                                                        <span class='skill-tag'>Flask</span><span class='skill-tag'>HTML5</span><span class='skill-tag'>Cascading Style Sheets (CSS)</span><span class='skill-tag'>Python (Programming Language)</span><span class='skill-tag'>Bootstrap (Framework)</span><span class='skill-tag'>SQLAlchemy</span>
+                                                    </div>
+                                                    <a href='https://github.com/khanbasharat3a1/Blog_App_using_flask' target='_blank'>GitHub Repository</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
