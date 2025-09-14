@@ -1056,6 +1056,53 @@ Default Blogger Styles
             margin-bottom: 10px;
             color: #2c3e50;
         }
+        .volunteering-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        .volunteering-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .volunteering-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .volunteering-logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+        .volunteering-details {
+            flex-grow: 1;
+        }
+        .volunteering-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 0;
+        }
+        .volunteering-org {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #e74c3c;
+            margin: 5px 0;
+        }
+        .volunteering-meta {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .volunteering-desc {
+            font-size: 1rem;
+            color: #2c3e50;
+        }
         .interests-section {
             padding: 50px 0;
         }
@@ -1078,8 +1125,7 @@ Default Blogger Styles
             font-size: 2rem;
             margin-bottom: 10px;
         }
-
-      .project-heading {
+        .project-heading {
             color: #2c3e50;
             font-size: clamp(24px, 5vw, 36px);
             line-height: 1.2;
@@ -1206,6 +1252,7 @@ Default Blogger Styles
             flex-wrap: wrap;
             gap: 8px;
         }
+
         .skill-tag {
             background-color: #f3eae9;
             padding: 4px 8px;
@@ -1511,10 +1558,6 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                     <dt><i class='fas fa-envelope'/> E-mail</dt>
                     <dd><a href='mailto:khanbasharat3a1@gmail.com'>khanbasharat3a1@gmail.com</a></dd>
                 </div>
-                <div class='contact-item'>
-                    <dt><i class='fas fa-phone'/> Phone</dt>
-                    <dd><a href='tel:+918899977743'>+91 8899977743</a></dd>
-                </div>
             </dl>
 
             <div class='social-links'>
@@ -1738,86 +1781,72 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
 
                             <!-- Projects Section -->
                             <section class='section-container' id='projects'>
-                                <div class='project'>
-                                <div class='section-content'>
-                                    <h2 class='section-title'>Projects</h2>
+                                <div class='project-container'>
+                                    <div class='section-content'>
+                                        <h2 class='section-title'>Projects</h2>
                                     </div>
-                                    <div class='project-container'>
-                                        <div class='project-wrapper'>
-                                            <div class='project-content'>
-                                                <!-- Project 1 -->
-                                                <div class='project-card'>
-                                                    <div class='project-card-header'>
-                                                        <div class='project-logo-container'>
-                                                            <img alt='Model Institute of Engineering and Technology logo' class='project-logo' src='https://mietjmu.in/images/MIET.png'/>
-                                                        </div>
-                                                        <div class='project-title'>
-                                                            <h3 class='project-company-name'>AI-Powered Overheat Detection and Prevention System</h3>
-                                                            <p class='project-role'>Associated with Model Institute of Engineering and Technology</p>
-                                                        </div>
+                                    <div class='project-wrapper'>
+                                        <div class='project-content'>
+                                            <!-- Project 1 -->
+                                            <div class='project-card'>
+                                                <div class='project-card-header'>
+                                                    <div class='project-logo-container'>
+                                                        <img alt='Model Institute of Engineering and Technology logo' class='project-logo' src='https://mietjmu.in/images/MIET.png'/>
                                                     </div>
-                                                    <div class='project-details'>
-                                                        <span>📅 Jan 2025 - Jun 2025</span>
-                                                    </div>
-                                                    <ul class='project-description'>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Designed and implemented an AI-powered industrial automation system for real-time motor overheat detection and prevention.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated Mitsubishi iQ-R PLC for actuator control (fans, alarms, LEDs) and ESP32 with IoT sensors (PT100, DHT22, ACS712, LM393, voltage transducer) for data acquisition.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Python-based AI model to predict overheating risks and recommend preventive actions.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Built a Flask web dashboard to visualize live sensor data, historical logs, and AI-driven insights for predictive maintenance.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Programmed ladder logic for PLC-based fail-safe control loops, ensuring reliable system automation.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Established communication between ESP32 and Python server for efficient data transfer and control signals.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Conducted extensive testing and validation to ensure accuracy, responsiveness, and safety under industrial conditions.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Designed the system to be scalable and modular, adaptable for multiple motors and broader Industry 4.0 applications.</li>
-                                                    </ul>
-                                                    <div class='project-skills'>
-                                                        <span class='skill-tag'>Industrial Automation</span><span class='skill-tag'>Industry 4.0</span><span class='skill-tag'>Programmable Logic Controller (PLC)</span><span class='skill-tag'>Internet of Things (IoT)</span><span class='skill-tag'>PLC Programming</span><span class='skill-tag'>Python (Programming Language)</span><span class='skill-tag'>Artificial Intelligence (AI)</span><span class='skill-tag'>Predictive Maintenance</span><span class='skill-tag'>ESP32 Microcontrollers</span><span class='skill-tag'>Flask</span><span class='skill-tag'>Machine Learning</span><span class='skill-tag'>Ladder Logic</span>
+                                                    <div class='project-title'>
+                                                        <h3 class='project-company-name'>AI-Powered Overheat Detection and Prevention System</h3>
+                                                        <p class='project-role'>Associated with Model Institute of Engineering and Technology</p>
                                                     </div>
                                                 </div>
-                                                <!-- Project 2 -->
-                                                <div class='project-card'>
-                                                    <div class='project-card-header'>
-                                                        <div class='project-title'>
-                                                            <h3 class='project-company-name'>Smart Healthcare Assistant</h3>
-                                                        </div>
-                                                    </div>
-                                                    <div class='project-details'>
-                                                        <span>📅 Nov 2024 - Dec 2024</span>
-                                                    </div>
-                                                    <ul class='project-description'>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Flask-based healthcare chatbot platform providing real-time healthcare advice and location-based assistance.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated OpenAI's ChatGPT API for natural language processing and Google Maps API for fetching and displaying nearby healthcare facilities.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Designed a responsive and user-friendly frontend using Bootstrap and custom CSS, ensuring compatibility across devices.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Implemented secure backend routing for handling user queries and external API integration with optimized performance using Gunicorn.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Conducted rigorous testing to validate functionality, responsiveness, and error handling, ensuring a seamless user experience.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Deployed the application on Render.com, enabling scalable and reliable access for users.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Continuously refined the platform based on user feedback to enhance usability and expand features like emergency support and personalized recommendations.</li>
-                                                    </ul>
-                                                    <div class='project-skills'>
-                                                        <span class='skill-tag'>Python (Programming Language)</span><span class='skill-tag'>Bootstrap (Framework)</span><span class='skill-tag'>HTML5</span><span class='skill-tag'>Cascading Style Sheets (CSS)</span><span class='skill-tag'>API</span><span class='skill-tag'>OpenAI API</span><span class='skill-tag'>Front-End Development</span><span class='skill-tag'>Back-End Web Development</span><span class='skill-tag'>User Experience (UX)</span><span class='skill-tag'>User Interface Design</span>
-                                                    </div>
-                                                    <a href='https://github.com/khanbasharat3a1/AI_SmarHealthCare_Assistant' target='_blank'>GitHub Repository</a>
+                                                <div class='project-details'>
+                                                    <span>📅 Jan 2025 - Jun 2025</span>
                                                 </div>
-                                                <!-- Project 3 -->
-                                                <div class='project-card'>
-                                                    <div class='project-card-header'>
-                                                        <div class='project-title'>
-                                                            <h3 class='project-company-name'>Blog Website using Flask</h3>
-                                                        </div>
-                                                    </div>
-                                                    <div class='project-details'>
-                                                        <span>📅 Nov 2023 - Dec 2023</span>
-                                                    </div>
-                                                    <ul class='project-description'>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Flask-based blogging platform with user registration, login, and post management functionalities.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated SQLAlchemy for database interaction and Flask-Login for secure password hashing and authentication.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Utilized Flask-Bootstrap5 and CKEditor for frontend styling and rich text editing.</li>
-                                                        <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Implemented routes for user authentication, post management, and error handling.</li>
-                                                    </ul>
-                                                    <div class='project-skills'>
-                                                        <span class='skill-tag'>Flask</span><span class='skill-tag'>HTML5</span><span class='skill-tag'>Cascading Style Sheets (CSS)</span><span class='skill-tag'>Python (Programming Language)</span><span class='skill-tag'>Bootstrap (Framework)</span><span class='skill-tag'>SQLAlchemy</span>
-                                                    </div>
-                                                    <a href='https://github.com/khanbasharat3a1/Blog_App_using_flask' target='_blank'>GitHub Repository</a>
+                                                <ul class='project-description'>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Designed and implemented an AI-powered industrial automation system for real-time motor overheat detection and prevention.</li>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated Mitsubishi iQ-R PLC for actuator control and ESP32 with IoT sensors for data acquisition.</li>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Python-based AI model to predict overheating risks and recommend preventive actions.</li>
+                                                </ul>
+                                                <div class='project-skills'>
+                                                    <span class='skill-tag'>Industrial Automation</span><span class='skill-tag'>Industry 4.0</span><span class='skill-tag'>PLC</span><span class='skill-tag'>IoT</span><span class='skill-tag'>Python</span><span class='skill-tag'>AI</span><span class='skill-tag'>Predictive Maintenance</span><span class='skill-tag'>ESP32</span><span class='skill-tag'>Flask</span><span class='skill-tag'>Machine Learning</span>
                                                 </div>
+                                            </div>
+                                            <!-- Project 2 -->
+                                            <div class='project-card'>
+                                                <div class='project-card-header'>
+                                                    <div class='project-title'>
+                                                        <h3 class='project-company-name'>Smart Healthcare Assistant</h3>
+                                                    </div>
+                                                </div>
+                                                <div class='project-details'>
+                                                    <span>📅 Nov 2024 - Dec 2024</span>
+                                                </div>
+                                                <ul class='project-description'>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Flask-based healthcare chatbot platform providing real-time healthcare advice and location-based assistance.</li>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated OpenAI's ChatGPT API and Google Maps API.</li>
+                                                </ul>
+                                                <div class='project-skills'>
+                                                    <span class='skill-tag'>Python</span><span class='skill-tag'>Bootstrap</span><span class='skill-tag'>HTML5</span><span class='skill-tag'>CSS</span><span class='skill-tag'>API</span><span class='skill-tag'>OpenAI API</span>
+                                                </div>
+                                                <a href='https://github.com/khanbasharat3a1/AI_SmarHealthCare_Assistant' target='_blank'>GitHub Repository</a>
+                                            </div>
+                                            <!-- Project 3 -->
+                                            <div class='project-card'>
+                                                <div class='project-card-header'>
+                                                    <div class='project-title'>
+                                                        <h3 class='project-company-name'>Blog Website using Flask</h3>
+                                                    </div>
+                                                </div>
+                                                <div class='project-details'>
+                                                    <span>📅 Nov 2023 - Dec 2023</span>
+                                                </div>
+                                                <ul class='project-description'>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Flask-based blogging platform with user registration, login, and post management.</li>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated SQLAlchemy and Flask-Login for database interaction and authentication.</li>
+                                                </ul>
+                                                <div class='project-skills'>
+                                                    <span class='skill-tag'>Flask</span><span class='skill-tag'>HTML5</span><span class='skill-tag'>CSS</span><span class='skill-tag'>Python</span><span class='skill-tag'>Bootstrap</span><span class='skill-tag'>SQLAlchemy</span>
+                                                </div>
+                                                <a href='https://github.com/khanbasharat3a1/Blog_App_using_flask' target='_blank'>GitHub Repository</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1965,37 +1994,20 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                             </section>
 
                             <!-- Volunteering Section -->
-                            <section class='section-container' id='volunteering'>
-                                <div class='experience'>
-                                <div class='experience-container'>
-                                <div class='section-content'>
-                                    <h2 class='section-title'>Volunteering</h2>
-                                </div>
-                                <div class='experience-wrapper'>
-                                <div class='experience-content'>
-                                <div class='experience-card'>
-                                    <div class='experience-card-header'>
-                                        <div class='experience-logo-container'>
-                                            <img alt='Google Maps Logo' class='experience-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png'/>
-                                        </div>
-                                        <div class='experience-title'>
-                                            <h3 class='experience-company-name'>Google Maps</h3>
-                                            <p class='experience-role'>Google Local Guide - Level 07</p>
+                            <section class='section-container volunteering-section' id='volunteering'>
+                                <div class='volunteering-container'>
+                                    <div class='section-content'>
+                                        <h2 class='section-title'>Volunteering</h2>
+                                    </div>
+                                    <div class='volunteering-card'>
+                                        <img alt='Google Maps Logo' class='volunteering-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png'/>
+                                        <div class='volunteering-details'>
+                                            <h3 class='volunteering-title'>Google Local Guide - Level 07</h3>
+                                            <p class='volunteering-org'>Google Maps</p>
+                                            <p class='volunteering-meta'>Sep 2021 - Present · Social Services</p>
+                                            <p class='volunteering-desc'>Local guide level 7 | 3000+ contributions | 2.2M+ views</p>
                                         </div>
                                     </div>
-                                    <div class='experience-details'>
-                                        <span>📅 Sep 2021 - Present</span>
-                                        <span>📍 Social Services</span>
-                                    </div>
-                                    <ul class='experience-description'>
-                                        <li class='experience-description-item'>
-                                            <span class='experience-description-bullet'>&#9657;</span>Local guide level 7 | 3000+ contributions | 2.2M+ views
-                                        </li>
-                                    </ul>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
                                 </div>
                             </section>
 
@@ -2050,10 +2062,6 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                                         <div class='contact-item'>
                                             <dt><i class='fas fa-envelope'/> E-mail</dt>
                                             <dd><a href='mailto:khanbasharat3a1@gmail.com'>khanbasharat3a1@gmail.com</a></dd>
-                                        </div>
-                                        <div class='contact-item'>
-                                            <dt><i class='fas fa-phone'/> Phone</dt>
-                                            <dd><a href='tel:+918899977743'>+91 8899977743</a></dd>
                                         </div>
                                     </dl>
 
