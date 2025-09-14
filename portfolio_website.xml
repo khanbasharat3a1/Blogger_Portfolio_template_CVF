@@ -1833,14 +1833,12 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                                 </div>
 
                                 <div class='education-card'>
-                                    <img alt='Udemy logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/512px-Udemy_logo.svg.png'/>
                                     <div class='education-details'>
                                         <h3 class='education-school'>100 Days of Code - The Complete Python Pro Bootcamp</h3>
                                     </div>
                                 </div>
 
                                 <div class='education-card'>
-                                    <img alt='IBM logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo.svg'/>
                                     <div class='education-details'>
                                         <h3 class='education-school'>Python for Data Science, AI &amp; Development</h3>
                                         <h4 class='education-degree'>Issued by IBM and Coursera</h4>
@@ -1848,7 +1846,6 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                                 </div>
 
                                 <div class='education-card'>
-                                    <img alt='IBM logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo.svg'/>
                                     <div class='education-details'>
                                         <h3 class='education-school'>Introduction to Artificial Intelligence</h3>
                                         <h4 class='education-degree'>Issued by IBM and Coursera</h4>
@@ -1856,7 +1853,6 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                                 </div>
 
                                 <div class='education-card'>
-                                    <img alt='Duke University logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Duke_University_logo.svg/512px-Duke_University_logo.svg.png'/>
                                     <div class='education-details'>
                                         <h3 class='education-school'>Programming Fundamentals</h3>
                                         <h4 class='education-degree'>Issued by Duke University and Coursera</h4>
@@ -1870,7 +1866,6 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                                 </div>
 
                                 <div class='education-card'>
-                                    <img alt='Mitsubishi Electric logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Mitsubishi_Electric_logo.png/800px-Mitsubishi_Electric_logo.png'/>
                                     <div class='education-details'>
                                         <h3 class='education-school'>Online/Offline Robotic Arm Training</h3>
                                         <h4 class='education-degree'>Issued by Mitsubishi Electric</h4>
@@ -1878,7 +1873,6 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                                 </div>
 
                                 <div class='education-card'>
-                                    <img alt='IBM logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo.svg'/>
                                     <div class='education-details'>
                                         <h3 class='education-school'>Machine Learning with Python</h3>
                                         <h4 class='education-degree'>Issued by IBM and Coursera</h4>
@@ -1893,7 +1887,6 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                                 </div>
 
                                 <div class='education-card'>
-                                    <img alt='Spark AR logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Adobe_Spark_logo.svg/512px-Adobe_Spark_logo.svg.png'/>
                                     <div class='education-details'>
                                         <h3 class='education-school'>Spark AR Community Hackathon</h3>
                                         <h4 class='education-degree'>Participation and AR effect submission</h4>
@@ -1973,11 +1966,36 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
 
                             <!-- Volunteering Section -->
                             <section class='section-container' id='volunteering'>
+                                <div class='experience'>
+                                <div class='experience-container'>
                                 <div class='section-content'>
                                     <h2 class='section-title'>Volunteering</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                                </div>
+                                <div class='experience-wrapper'>
+                                <div class='experience-content'>
+                                <div class='experience-card'>
+                                    <div class='experience-card-header'>
+                                        <div class='experience-logo-container'>
+                                            <img alt='Google Maps Logo' class='experience-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png'/>
+                                        </div>
+                                        <div class='experience-title'>
+                                            <h3 class='experience-company-name'>Google Maps</h3>
+                                            <p class='experience-role'>Google Local Guide - Level 07</p>
+                                        </div>
                                     </div>
+                                    <div class='experience-details'>
+                                        <span>📅 Sep 2021 - Present</span>
+                                        <span>📍 Social Services</span>
+                                    </div>
+                                    <ul class='experience-description'>
+                                        <li class='experience-description-item'>
+                                            <span class='experience-description-bullet'>&#9657;</span>Local guide level 7 | 3000+ contributions | 2.2M+ views
+                                        </li>
+                                    </ul>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
                                 </div>
                             </section>
 
@@ -2018,8 +2036,43 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                             <section class='section-container' id='contact'>
                                 <div class='section-content'>
                                     <h2 class='section-title'>Contact</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                                </div>
+                                <div class='contact-card'>
+                                    <div class='card-header'>
+                                        <h3>Let's Connect</h3>
+                                    </div>
+
+                                    <dl class='contact-list'>
+                                        <div class='contact-item'>
+                                            <dt><i class='fas fa-map-marker-alt'/> Address</dt>
+                                            <dd>Tangmarg, Baramulla, J&amp;K</dd>
+                                        </div>
+                                        <div class='contact-item'>
+                                            <dt><i class='fas fa-envelope'/> E-mail</dt>
+                                            <dd><a href='mailto:khanbasharat3a1@gmail.com'>khanbasharat3a1@gmail.com</a></dd>
+                                        </div>
+                                        <div class='contact-item'>
+                                            <dt><i class='fas fa-phone'/> Phone</dt>
+                                            <dd><a href='tel:+918899977743'>+91 8899977743</a></dd>
+                                        </div>
+                                    </dl>
+
+                                    <div class='social-links'>
+                                        <a aria-label='Facebook' class='social-icon' href='https://www.facebook.com/khanbasharat3a1/' rel='noopener' target='_blank'>
+                                            <i class='fab fa-facebook'/>
+                                        </a>
+                                        <a aria-label='Twitter' class='social-icon' href='https://twitter.com/KhanBasharat3a1' rel='noopener' target='_blank'>
+                                            <i class='fab fa-twitter'/>
+                                        </a>
+                                        <a aria-label='Instagram' class='social-icon' href='https://www.instagram.com/khanbasharat3a1/' rel='noopener' target='_blank'>
+                                            <i class='fab fa-instagram'/>
+                                        </a>
+                                        <a aria-label='GitHub' class='social-icon' href='https://github.com/khanbasharat3a1' rel='noopener' target='_blank'>
+                                            <i class='fab fa-github'/>
+                                        </a>
+                                        <a aria-label='LinkedIn' class='social-icon' href='https://www.linkedin.com/in/basharat-khan-a628a4214/' rel='noopener' target='_blank'>
+                                            <i class='fab fa-linkedin'/>
+                                        </a>
                                     </div>
                                 </div>
                             </section>
