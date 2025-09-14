@@ -1024,6 +1024,60 @@ Default Blogger Styles
             flex-wrap: wrap;
             gap: 8px;
         }
+        .skills-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        .skills-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .skill-category {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .skill-category h3 {
+            color: #e74c3c;
+            margin-bottom: 15px;
+        }
+        .skill-category ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skill-category li {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .interests-section {
+            padding: 50px 0;
+        }
+        .interests-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .interests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .interest-item {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        .interest-item span {
+            display: block;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
 
       .project-heading {
             color: #2c3e50;
@@ -1772,20 +1826,147 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
 
                             <!-- Licenses Section -->
                             <section class='section-container' id='licenses'>
+                                <div class='education'>
+                                <div class='education-container'>
                                 <div class='section-content'>
                                     <h2 class='section-title'>Licenses &amp; Certifications</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                                </div>
+
+                                <div class='education-card'>
+                                    <img alt='Udemy logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/512px-Udemy_logo.svg.png'/>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>100 Days of Code - The Complete Python Pro Bootcamp</h3>
                                     </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <img alt='IBM logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo.svg'/>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Python for Data Science, AI &amp; Development</h3>
+                                        <h4 class='education-degree'>Issued by IBM and Coursera</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <img alt='IBM logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo.svg'/>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Introduction to Artificial Intelligence</h3>
+                                        <h4 class='education-degree'>Issued by IBM and Coursera</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <img alt='Duke University logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Duke_University_logo.svg/512px-Duke_University_logo.svg.png'/>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Programming Fundamentals</h3>
+                                        <h4 class='education-degree'>Issued by Duke University and Coursera</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Introduction to Internet of Things</h3>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <img alt='Mitsubishi Electric logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Mitsubishi_Electric_logo.png/800px-Mitsubishi_Electric_logo.png'/>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Online/Offline Robotic Arm Training</h3>
+                                        <h4 class='education-degree'>Issued by Mitsubishi Electric</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <img alt='IBM logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo.svg'/>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Machine Learning with Python</h3>
+                                        <h4 class='education-degree'>Issued by IBM and Coursera</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Design Thinking for Innovation</h3>
+                                         <h4 class='education-degree'>Issued by Infosys Springboard</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <img alt='Spark AR logo' class='education-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Adobe_Spark_logo.svg/512px-Adobe_Spark_logo.svg.png'/>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Spark AR Community Hackathon</h3>
+                                        <h4 class='education-degree'>Participation and AR effect submission</h4>
+                                    </div>
+                                </div>
+
+                                </div>
                                 </div>
                             </section>
 
                             <!-- Skills Section -->
-                            <section class='section-container' id='skills'>
-                                <div class='section-content'>
-                                    <h2 class='section-title'>Professional Skills</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                            <section class='section-container skills-section' id='skills'>
+                                <div class='skills-container'>
+                                    <div class='section-content'>
+                                        <h2 class='section-title'>Professional Skills</h2>
+                                    </div>
+                                    <div class='skills-grid'>
+                                        <div class='skill-category'>
+                                            <h3>Programming Languages</h3>
+                                            <ul>
+                                                <li>Python</li>
+                                                <li>C</li>
+                                                <li>Matlab</li>
+                                                <li>Assembly</li>
+                                                <li>Embedded C</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Hardware/Electronics</h3>
+                                            <ul>
+                                                <li>VHDL</li>
+                                                <li>Internet of Things (IoT)</li>
+                                                <li>PLC</li>
+                                                <li>Sensors &amp; Actuators</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Web Development</h3>
+                                            <ul>
+                                                <li>Flask</li>
+                                                <li>Jinja</li>
+                                                <li>Beautiful Soup</li>
+                                                <li>Selenium web-driver</li>
+                                                <li>Bootstrap</li>
+                                                <li>HTML 5</li>
+                                                <li>CSS 3</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Networking &amp; Security</h3>
+                                            <ul>
+                                                <li>Network Monitoring</li>
+                                                <li>Incident Response</li>
+                                                <li>Server Management</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Data Management &amp; Deployment</h3>
+                                            <ul>
+                                                <li>SQLite</li>
+                                                <li>SQLAlchemy</li>
+                                                <li>Git</li>
+                                                <li>GitHub</li>
+                                                <li>Deployment with GitHub Pages, Heroku, and Gunicorn</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Other</h3>
+                                            <ul>
+                                                <li>Search Engine Optimization (SEO)</li>
+                                                <li>Digital Marketing</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
@@ -1801,11 +1982,34 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                             </section>
 
                             <!-- Interests Section -->
-                            <section class='section-container' id='interests'>
-                                <div class='section-content'>
-                                    <h2 class='section-title'>Hobby/Interests</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                            <section class='section-container interests-section' id='interests'>
+                                <div class='interests-container'>
+                                    <div class='section-content'>
+                                        <h2 class='section-title'>Hobby/Interests</h2>
+                                    </div>
+                                    <div class='interests-grid'>
+                                        <div class='interest-item'><span>🖋️</span>Blogger</div>
+                                        <div class='interest-item'><span>💻</span>SEO Expert</div>
+                                        <div class='interest-item'><span>👨‍🔧</span>Engineer</div>
+                                        <div class='interest-item'><span>🔌</span>ECE Engineer</div>
+                                        <div class='interest-item'><span>🤖</span>Robotics</div>
+                                        <div class='interest-item'><span>🧠</span>AI</div>
+                                        <div class='interest-item'><span>🤖</span>ML</div>
+                                        <div class='interest-item'><span>📊</span>Data Science</div>
+                                        <div class='interest-item'><span>🐍</span>Python Programmer</div>
+                                        <div class='interest-item'><span>🔧</span>C Programmer</div>
+                                        <div class='interest-item'><span>👨‍💼</span>Entrepreneur</div>
+                                        <div class='interest-item'><span>🔨</span>DIY Projects</div>
+                                        <div class='interest-item'><span>📚</span>Learning</div>
+                                        <div class='interest-item'><span>👨‍💻</span>Learning to Code</div>
+                                        <div class='interest-item'><span>🎯</span>Learning New Skills</div>
+                                        <div class='interest-item'><span>🔬</span>Research</div>
+                                        <div class='interest-item'><span>📊</span>Political Analyst</div>
+                                        <div class='interest-item'><span>💰</span>Economic Analyst</div>
+                                        <div class='interest-item'><span>🍳</span>Cooking</div>
+                                        <div class='interest-item'><span>✈️</span>Traveling</div>
+                                        <div class='interest-item'><span>⛰️</span>Climbing</div>
+                                        <div class='interest-item'><span>📷</span>Photography</div>
                                     </div>
                                 </div>
                             </section>
