@@ -1024,6 +1024,234 @@ Default Blogger Styles
             flex-wrap: wrap;
             gap: 8px;
         }
+        .skills-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        .skills-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .skill-category {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .skill-category h3 {
+            color: #e74c3c;
+            margin-bottom: 15px;
+        }
+        .skill-category ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skill-category li {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .volunteering-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        .volunteering-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .volunteering-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .volunteering-logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+        .volunteering-details {
+            flex-grow: 1;
+        }
+        .volunteering-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 0;
+        }
+        .volunteering-org {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #e74c3c;
+            margin: 5px 0;
+        }
+        .volunteering-meta {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .volunteering-desc {
+            font-size: 1rem;
+            color: #2c3e50;
+        }
+        .interests-section {
+            padding: 50px 0;
+        }
+        .interests-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .interests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .interest-item {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        .interest-item span {
+            display: block;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .project-heading {
+            color: #2c3e50;
+            font-size: clamp(24px, 5vw, 36px);
+            line-height: 1.2;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            padding-top: 60px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .project-container {
+            background: linear-gradient(145deg, #f6f8fa 0%, #f1f1f1 100%);
+            display: flex;
+            justify-content: center;
+            padding: clamp(20px, 5vw, 40px);
+        }
+
+        .project-wrapper {
+            width: min(90%, 1200px);
+            background-color: #ffffff;
+            padding: clamp(15px, 3vw, 30px);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-content {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .project-card {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            border: none;
+            padding: clamp(15px, 3vw, 25px);
+            background: rgb(255, 255, 255);
+            border-radius: 12px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 15px;
+            transition: transform 0.2s ease-in-out;
+            gap: 15px;
+            transform: translateY(0px);
+		border-bottom: 1px solid #ccc; /* Light gray line */
+
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .project-logo-container {
+            width: 60px;
+            height: 60px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .project-logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .project-title {
+            flex-grow: 1;
+        }
+
+        .project-company-name {
+            color: #2c3e50;
+            font-size: clamp(16px, 4vw, 20px);
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .project-role {
+            color: #e74c3c;
+            font-weight: 600;
+            font-size: clamp(14px, 3.5vw, 16px);
+            margin: 5px 0 0 0;
+        }
+
+        .project-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            color: #7f8c8d;
+            font-size: 13px;
+        }
+
+        .project-description {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .project-description-item {
+            color: #2c3e50;
+            font-size: 13px;
+            line-height: 1.8;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+        }
+
+        .project-description-bullet {
+            color: #e74c3c;
+            margin-right: 8px;
+        }
+
+        .project-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
 
         .skill-tag {
             background-color: #f3eae9;
@@ -1330,10 +1558,6 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                     <dt><i class='fas fa-envelope'/> E-mail</dt>
                     <dd><a href='mailto:khanbasharat3a1@gmail.com'>khanbasharat3a1@gmail.com</a></dd>
                 </div>
-                <div class='contact-item'>
-                    <dt><i class='fas fa-phone'/> Phone</dt>
-                    <dd><a href='tel:+918899977743'>+91 8899977743</a></dd>
-                </div>
             </dl>
 
             <div class='social-links'>
@@ -1379,6 +1603,30 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
         <div class='experience-container'>
             <div class='experience-wrapper'>
                 <div class='experience-content'>
+                    <!-- Atomic North -->
+                    <div class='experience-card'>
+                        <div class='experience-card-header'>
+                            <div class='experience-logo-container'>
+                                <img alt='Atomic North Logo' class='experience-logo' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDGr_M2amp4t4UQLH24W5wJtT5AbRz2h2FpCHb8S5jO8L7vjYJSH0dDOi_acvB2Qp6cuj4l1i9zFjY2s-jJ8n8cZ-g2m3d5e4a3b2c1/s320/atomic_north_logo.png'/>
+                            </div>
+                            <div class='experience-title'>
+                                <h3 class='experience-company-name'>Atomic North</h3>
+                                <p class='experience-role'>Technical Support Trainee</p>
+                            </div>
+                        </div>
+                        <div class='experience-details'>
+                            <span>📅 Jul 2025 - Present</span>
+                            <span>📍 On-site</span>
+                        </div>
+                        <ul class='experience-description'>
+                            <li class='experience-description-item'>
+                                <span class='experience-description-bullet'>&#9657;</span>Supporting NOC &amp; SOC operations including monitoring, incident response, and server management.
+                            </li>
+                            <li class='experience-description-item'>
+                                <span class='experience-description-bullet'>&#9657;</span>Ensuring network reliability, system uptime, and security compliance through proactive analysis and real-time troubleshooting.
+                            </li>
+                        </ul>
+                    </div>
                     <!-- Cadila Pharmaceuticals -->
                     <div class='experience-card'>
                         <div class='experience-card-header'>
@@ -1533,50 +1781,265 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
 
                             <!-- Projects Section -->
                             <section class='section-container' id='projects'>
-                                <div class='section-content'>
-                                    <h2 class='section-title'>Projects</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                                <div class='project-container'>
+                                    <div class='section-content'>
+                                        <h2 class='section-title'>Projects</h2>
+                                    </div>
+                                    <div class='project-wrapper'>
+                                        <div class='project-content'>
+                                            <!-- Project 1 -->
+                                            <div class='project-card'>
+                                                <div class='project-card-header'>
+                                                    <div class='project-logo-container'>
+                                                        <img alt='Model Institute of Engineering and Technology logo' class='project-logo' src='https://mietjmu.in/images/MIET.png'/>
+                                                    </div>
+                                                    <div class='project-title'>
+                                                        <h3 class='project-company-name'>AI-Powered Overheat Detection and Prevention System</h3>
+                                                        <p class='project-role'>Associated with Model Institute of Engineering and Technology</p>
+                                                    </div>
+                                                </div>
+                                                <div class='project-details'>
+                                                    <span>📅 Jan 2025 - Jun 2025</span>
+                                                </div>
+                                                <ul class='project-description'>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Designed and implemented an AI-powered industrial automation system for real-time motor overheat detection and prevention.</li>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated Mitsubishi iQ-R PLC for actuator control and ESP32 with IoT sensors for data acquisition.</li>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Python-based AI model to predict overheating risks and recommend preventive actions.</li>
+                                                </ul>
+                                                <div class='project-skills'>
+                                                    <span class='skill-tag'>Industrial Automation</span><span class='skill-tag'>Industry 4.0</span><span class='skill-tag'>PLC</span><span class='skill-tag'>IoT</span><span class='skill-tag'>Python</span><span class='skill-tag'>AI</span><span class='skill-tag'>Predictive Maintenance</span><span class='skill-tag'>ESP32</span><span class='skill-tag'>Flask</span><span class='skill-tag'>Machine Learning</span>
+                                                </div>
+                                            </div>
+                                            <!-- Project 2 -->
+                                            <div class='project-card'>
+                                                <div class='project-card-header'>
+                                                    <div class='project-title'>
+                                                        <h3 class='project-company-name'>Smart Healthcare Assistant</h3>
+                                                    </div>
+                                                </div>
+                                                <div class='project-details'>
+                                                    <span>📅 Nov 2024 - Dec 2024</span>
+                                                </div>
+                                                <ul class='project-description'>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Flask-based healthcare chatbot platform providing real-time healthcare advice and location-based assistance.</li>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated OpenAI's ChatGPT API and Google Maps API.</li>
+                                                </ul>
+                                                <div class='project-skills'>
+                                                    <span class='skill-tag'>Python</span><span class='skill-tag'>Bootstrap</span><span class='skill-tag'>HTML5</span><span class='skill-tag'>CSS</span><span class='skill-tag'>API</span><span class='skill-tag'>OpenAI API</span>
+                                                </div>
+                                                <a href='https://github.com/khanbasharat3a1/AI_SmarHealthCare_Assistant' target='_blank'>GitHub Repository</a>
+                                            </div>
+                                            <!-- Project 3 -->
+                                            <div class='project-card'>
+                                                <div class='project-card-header'>
+                                                    <div class='project-title'>
+                                                        <h3 class='project-company-name'>Blog Website using Flask</h3>
+                                                    </div>
+                                                </div>
+                                                <div class='project-details'>
+                                                    <span>📅 Nov 2023 - Dec 2023</span>
+                                                </div>
+                                                <ul class='project-description'>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Developed a Flask-based blogging platform with user registration, login, and post management.</li>
+                                                    <li class='project-description-item'><span class='project-description-bullet'>&#9657;</span>Integrated SQLAlchemy and Flask-Login for database interaction and authentication.</li>
+                                                </ul>
+                                                <div class='project-skills'>
+                                                    <span class='skill-tag'>Flask</span><span class='skill-tag'>HTML5</span><span class='skill-tag'>CSS</span><span class='skill-tag'>Python</span><span class='skill-tag'>Bootstrap</span><span class='skill-tag'>SQLAlchemy</span>
+                                                </div>
+                                                <a href='https://github.com/khanbasharat3a1/Blog_App_using_flask' target='_blank'>GitHub Repository</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
 
                             <!-- Licenses Section -->
                             <section class='section-container' id='licenses'>
+                                <div class='education'>
+                                <div class='education-container'>
                                 <div class='section-content'>
                                     <h2 class='section-title'>Licenses &amp; Certifications</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>100 Days of Code - The Complete Python Pro Bootcamp</h3>
                                     </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Python for Data Science, AI &amp; Development</h3>
+                                        <h4 class='education-degree'>Issued by IBM and Coursera</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Introduction to Artificial Intelligence</h3>
+                                        <h4 class='education-degree'>Issued by IBM and Coursera</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Programming Fundamentals</h3>
+                                        <h4 class='education-degree'>Issued by Duke University and Coursera</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Introduction to Internet of Things</h3>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Online/Offline Robotic Arm Training</h3>
+                                        <h4 class='education-degree'>Issued by Mitsubishi Electric</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Machine Learning with Python</h3>
+                                        <h4 class='education-degree'>Issued by IBM and Coursera</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Design Thinking for Innovation</h3>
+                                         <h4 class='education-degree'>Issued by Infosys Springboard</h4>
+                                    </div>
+                                </div>
+
+                                <div class='education-card'>
+                                    <div class='education-details'>
+                                        <h3 class='education-school'>Spark AR Community Hackathon</h3>
+                                        <h4 class='education-degree'>Participation and AR effect submission</h4>
+                                    </div>
+                                </div>
+
+                                </div>
                                 </div>
                             </section>
 
                             <!-- Skills Section -->
-                            <section class='section-container' id='skills'>
-                                <div class='section-content'>
-                                    <h2 class='section-title'>Professional Skills</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                            <section class='section-container skills-section' id='skills'>
+                                <div class='skills-container'>
+                                    <div class='section-content'>
+                                        <h2 class='section-title'>Professional Skills</h2>
+                                    </div>
+                                    <div class='skills-grid'>
+                                        <div class='skill-category'>
+                                            <h3>Programming Languages</h3>
+                                            <ul>
+                                                <li>Python</li>
+                                                <li>C</li>
+                                                <li>Matlab</li>
+                                                <li>Assembly</li>
+                                                <li>Embedded C</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Hardware/Electronics</h3>
+                                            <ul>
+                                                <li>VHDL</li>
+                                                <li>Internet of Things (IoT)</li>
+                                                <li>PLC</li>
+                                                <li>Sensors &amp; Actuators</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Web Development</h3>
+                                            <ul>
+                                                <li>Flask</li>
+                                                <li>Jinja</li>
+                                                <li>Beautiful Soup</li>
+                                                <li>Selenium web-driver</li>
+                                                <li>Bootstrap</li>
+                                                <li>HTML 5</li>
+                                                <li>CSS 3</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Networking &amp; Security</h3>
+                                            <ul>
+                                                <li>Network Monitoring</li>
+                                                <li>Incident Response</li>
+                                                <li>Server Management</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Data Management &amp; Deployment</h3>
+                                            <ul>
+                                                <li>SQLite</li>
+                                                <li>SQLAlchemy</li>
+                                                <li>Git</li>
+                                                <li>GitHub</li>
+                                                <li>Deployment with GitHub Pages, Heroku, and Gunicorn</li>
+                                            </ul>
+                                        </div>
+                                        <div class='skill-category'>
+                                            <h3>Other</h3>
+                                            <ul>
+                                                <li>Search Engine Optimization (SEO)</li>
+                                                <li>Digital Marketing</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
 
                             <!-- Volunteering Section -->
-                            <section class='section-container' id='volunteering'>
-                                <div class='section-content'>
-                                    <h2 class='section-title'>Volunteering</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                            <section class='section-container volunteering-section' id='volunteering'>
+                                <div class='volunteering-container'>
+                                    <div class='section-content'>
+                                        <h2 class='section-title'>Volunteering</h2>
+                                    </div>
+                                    <div class='volunteering-card'>
+                                        <img alt='Google Maps Logo' class='volunteering-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png'/>
+                                        <div class='volunteering-details'>
+                                            <h3 class='volunteering-title'>Google Local Guide - Level 07</h3>
+                                            <p class='volunteering-org'>Google Maps</p>
+                                            <p class='volunteering-meta'>Sep 2021 - Present · Social Services</p>
+                                            <p class='volunteering-desc'>Local guide level 7 | 3000+ contributions | 2.2M+ views</p>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
 
                             <!-- Interests Section -->
-                            <section class='section-container' id='interests'>
-                                <div class='section-content'>
-                                    <h2 class='section-title'>Hobby/Interests</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                            <section class='section-container interests-section' id='interests'>
+                                <div class='interests-container'>
+                                    <div class='section-content'>
+                                        <h2 class='section-title'>Hobby/Interests</h2>
+                                    </div>
+                                    <div class='interests-grid'>
+                                        <div class='interest-item'><span>🖋️</span>Blogger</div>
+                                        <div class='interest-item'><span>💻</span>SEO Expert</div>
+                                        <div class='interest-item'><span>👨‍🔧</span>Engineer</div>
+                                        <div class='interest-item'><span>🔌</span>ECE Engineer</div>
+                                        <div class='interest-item'><span>🤖</span>Robotics</div>
+                                        <div class='interest-item'><span>🧠</span>AI</div>
+                                        <div class='interest-item'><span>🤖</span>ML</div>
+                                        <div class='interest-item'><span>📊</span>Data Science</div>
+                                        <div class='interest-item'><span>🐍</span>Python Programmer</div>
+                                        <div class='interest-item'><span>🔧</span>C Programmer</div>
+                                        <div class='interest-item'><span>👨‍💼</span>Entrepreneur</div>
+                                        <div class='interest-item'><span>🔨</span>DIY Projects</div>
+                                        <div class='interest-item'><span>📚</span>Learning</div>
+                                        <div class='interest-item'><span>👨‍💻</span>Learning to Code</div>
+                                        <div class='interest-item'><span>🎯</span>Learning New Skills</div>
+                                        <div class='interest-item'><span>🔬</span>Research</div>
+                                        <div class='interest-item'><span>📊</span>Political Analyst</div>
+                                        <div class='interest-item'><span>💰</span>Economic Analyst</div>
+                                        <div class='interest-item'><span>🍳</span>Cooking</div>
+                                        <div class='interest-item'><span>✈️</span>Traveling</div>
+                                        <div class='interest-item'><span>⛰️</span>Climbing</div>
+                                        <div class='interest-item'><span>📷</span>Photography</div>
                                     </div>
                                 </div>
                             </section>
@@ -1585,8 +2048,39 @@ Currently, I&#8217;m focused on developing innovative solutions that enhance eff
                             <section class='section-container' id='contact'>
                                 <div class='section-content'>
                                     <h2 class='section-title'>Contact</h2>
-                                    <div class='section-body'>
-                                        <!-- Content will be added in Blogger interface -->
+                                </div>
+                                <div class='contact-card'>
+                                    <div class='card-header'>
+                                        <h3>Let's Connect</h3>
+                                    </div>
+
+                                    <dl class='contact-list'>
+                                        <div class='contact-item'>
+                                            <dt><i class='fas fa-map-marker-alt'/> Address</dt>
+                                            <dd>Tangmarg, Baramulla, J&amp;K</dd>
+                                        </div>
+                                        <div class='contact-item'>
+                                            <dt><i class='fas fa-envelope'/> E-mail</dt>
+                                            <dd><a href='mailto:khanbasharat3a1@gmail.com'>khanbasharat3a1@gmail.com</a></dd>
+                                        </div>
+                                    </dl>
+
+                                    <div class='social-links'>
+                                        <a aria-label='Facebook' class='social-icon' href='https://www.facebook.com/khanbasharat3a1/' rel='noopener' target='_blank'>
+                                            <i class='fab fa-facebook'/>
+                                        </a>
+                                        <a aria-label='Twitter' class='social-icon' href='https://twitter.com/KhanBasharat3a1' rel='noopener' target='_blank'>
+                                            <i class='fab fa-twitter'/>
+                                        </a>
+                                        <a aria-label='Instagram' class='social-icon' href='https://www.instagram.com/khanbasharat3a1/' rel='noopener' target='_blank'>
+                                            <i class='fab fa-instagram'/>
+                                        </a>
+                                        <a aria-label='GitHub' class='social-icon' href='https://github.com/khanbasharat3a1' rel='noopener' target='_blank'>
+                                            <i class='fab fa-github'/>
+                                        </a>
+                                        <a aria-label='LinkedIn' class='social-icon' href='https://www.linkedin.com/in/basharat-khan-a628a4214/' rel='noopener' target='_blank'>
+                                            <i class='fab fa-linkedin'/>
+                                        </a>
                                     </div>
                                 </div>
                             </section>
